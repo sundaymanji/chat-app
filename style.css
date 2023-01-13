@@ -1,0 +1,186 @@
+/*General Reset*/
+*,
+*::before
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*root*/
+.mj{
+    background-color:  rgb(164, 84, 240);
+    width: 220px;
+    height: 500px;
+    border-bottom-right-radius: 240px;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+.container{
+    /*background-color: hsl(0, 0%, 100%) ;*/
+    background-color: white;
+    width: 375px;
+}
+.fon{
+    padding-left: 10px;
+    width: 360px;
+    height: 750px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 80px;
+    /*padding-top: 10px;*/
+    padding-right: 10px;
+}
+.chat{
+    background-color: hsl(270, 20%, 96%);
+    padding-bottom: 15px;
+    border-radius: 50px;
+    margin-top: -430px;
+    padding-top: 7px;
+    padding-left: 1px;
+    padding-bottom: ;
+}
+.chat1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient( to right,blue,violet);
+    border-radius: 10px;
+    padding-left: 15px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+}
+img{
+    border-radius: 20px;
+}
+.chat2{
+    background-color:  hsl(276, 14%, 71%);
+    margin-right: 100px;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(164, 84, 240);
+}
+.chat3{
+    background-color: hsl(276, 14%, 71%);
+    margin-right: 100px;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    color: rgb(164, 84, 240);
+}
+.chat4{
+    margin-left: 150px;
+}
+.chat5{
+    background-color: hsl(0, 0%, 100%);
+    margin-left: 100px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.chat6{
+    background-color: hsl(0, 0%, 100%);
+    margin-left: 200px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.chat7{
+    background-color: hsl(276, 14%, 71%);
+    margin-right: 100px;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(164, 84, 240);;
+}
+.chat8{
+    background: linear-gradient( to right,violet,rgb(43, 43, 218));
+    margin-right: 200px;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+.chat9{
+    background: linear-gradient( to right,violet,rgb(43, 43, 218));
+    margin-right: 200px;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;  
+}
+.chat10{
+    background-color: hsl(0, 0%, 100%);
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(214, 211, 211);
+    border-radius: 25px;
+    width: 300px;
+}
+.book{
+    text-align: center;
+    padding-left: 150px;
+}
+/*h1{
+    margin-left: 150px;
+}
+p{
+    margin-left: 60px;
+
+}*/
+@media screen and (min-width:900px) {
+
+    .container{
+        width: 1440px;
+        font-size: 16px;
+    }
+    .book{
+        margin-top: -900px;
+        margin-left: 650px;
+        margin-right: 300px; 
+    }
+    .fon{
+        width: 420px;
+        padding-top: 9px;
+        padding-bottom: 20px;
+        padding-left: 1px;
+        padding-right: 1px;
+        height: 700px;
+        margin-top:-300px;
+        margin-left: 250px;
+        margin-bottom: -100px;
+        border-radius: 39px;
+        box-shadow: 100px;
+        background: white;
+    }
+    .mj{
+        background: rgb(169, 101, 233);
+        width: 400px;
+        height: 800px;
+        margin-top: -20px;
+        margin-left: -10px;
+        border-bottom-left-radius: 120px;
+    }
+}
+
+
+
